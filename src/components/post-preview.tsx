@@ -7,6 +7,7 @@ import { EditPostModal } from "./modal-form";
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline';
 import { deletePostById, updatePostById } from "@/lib/api";
 import { useQueryClient } from '@tanstack/react-query';
+import { useRouter } from "next/router";
 
 type Props = {
   title: string;
@@ -34,6 +35,7 @@ function Dropdown({ slug, selectedPost }:DropdownProps) {
   const [openEditModal, setOpenEditModal] = useState(false);
 
   const [isLoading, setIsLoading] = useState(false);
+  const router = useRouter()
 
   const handleDelete = async () => {
     try {
@@ -151,10 +153,10 @@ function Dropdown({ slug, selectedPost }:DropdownProps) {
           <MenuItem>
             {({ active }) => (
               <a
-                href="#"
-                className={`block px-4 py-2 text-sm ${
+                className={`cursor-pointer block px-4 py-2 text-sm ${
                   active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'
                 }`}
+                onClick={() => router.push(`/posts/${slug}`)}
               >
                 View
               </a>
