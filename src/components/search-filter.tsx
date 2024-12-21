@@ -6,10 +6,7 @@ import { usePosts } from "@/context/PostContext";
 const DropdownSearch: React.FC = () => {
   const { filterPosts } = usePosts()
 
-  const handleSearch = useCallback(
-		debounce((search: string) => filterPosts(search), 500),
-		[filterPosts]
-	);
+  const handleSearch = useCallback(debounce((search) => filterPosts(String(search)), 500), [filterPosts]);
 
   return (
     <div className="w-full max-w-sm min-w-[200px]">
