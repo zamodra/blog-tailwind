@@ -86,7 +86,7 @@ export async function getPostsByPageWithUser(page: number): Promise<Post[]> {
 }
 
 // Fetch user by ID with fallback to dummy data if not found
-export async function getUserById(userId: number): Promise<any> {
+export async function getUserById(userId: number): Promise<{ name:string, email: string}> {
   try {
     const response = await apiClient.get(`/users/${userId}`);
 

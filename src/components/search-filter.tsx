@@ -3,18 +3,6 @@ import { useCallback } from "react";
 import debounce from "@/lib/debounce";
 import { usePosts } from "@/context/PostContext";
 
-
-interface DropdownOption {
-  label: string;
-  value: string;
-}
-
-const options: DropdownOption[] = [
-  { label: "Europe", value: "Europe" },
-  { label: "Australia", value: "Australia" },
-  { label: "Africa", value: "Africa" },
-];
-
 const DropdownSearch: React.FC = () => {
   const { filterPosts } = usePosts()
 

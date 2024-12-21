@@ -21,7 +21,6 @@ const getCookie = (name: string): string | undefined => {
 }
 
 export function ModalAuth({ open: controlledOpen = true, onClose = () => {} }: ModalAuthProps) {
-  const [userId, setUserId] = useState<string>('')
   const [name, setName] = useState<string>('')
   const [token, setToken] = useState<string>('')
   const [showSuccessMessage, setShowSuccessMessage] = useState<boolean>(false)

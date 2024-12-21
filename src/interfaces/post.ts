@@ -1,5 +1,3 @@
-import { type Author } from "./author";
-
 export interface Post {
   id: number;
   user_id: number;

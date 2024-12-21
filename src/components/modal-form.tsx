@@ -1,6 +1,6 @@
 'use client';
 
-import { ReactNode, useState, ChangeEvent } from 'react';
+import { useState, ChangeEvent } from 'react';
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react';
 
 interface Post {

@@ -1,5 +1,7 @@
 import { ModalAuth } from "@/components/modal-auth";
 
-export default () => {
+const Index = () => {
   return <ModalAuth/>
 }
+
+export default Index;
