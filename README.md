@@ -8,8 +8,6 @@ This project is built using Next.js v13, TypeScript, and Tailwind CSS. This proj
 - Get the 'name' value from here: https://gorest.co.in/public/v2/users
 - Get the 'token' value from here: https://gorest.co.in/my-account/access-tokens (Must register first in order to get the access token)
 
-# Challenge Completion
-
 ## 1. Credential Access to Blog Post ✅
 - Display a welcome dialog upon first access to the app.
 - The dialog should include input fields for name and Go Rest Token.
