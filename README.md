@@ -1,8 +1,5 @@
 ## Description:
-This project is a frontend challenge from synapsis.id, built using Next.js v13, TypeScript, and Tailwind CSS. This project involves consuming public data APIs from GoRest (or MSW as a fallback), with Axios handling API calls and TanStack Query v5 used for data fetching and caching. The user interface is styled using Ant Design (v5) and Tailwind CSS.
-
-## Personal Note:
-Usually, the interview process is not as fast as this one at synapsis.id, and I was both surprised and happy at the same time. However, I was unable to start the project as planned due to an urgent matter. Regardless, I gave my best over the last 18 hours to complete this task, I did what possible to do, from Saturday afternoon to Monday morning. It was quite a challange.
+This project is built using Next.js v13, TypeScript, and Tailwind CSS. This project involves consuming public data APIs from GoRest (or MSW as a fallback), with Axios handling API calls and TanStack Query v5 used for data fetching and caching. The user interface is styled using Ant Design (v5) and Tailwind CSS.
 
 ## Online Demo:
 - Visits here: https://zmdr-syn.netlify.app/
@@ -47,16 +44,6 @@ Usually, the interview process is not as fast as this one at synapsis.id, and I 
 - Create comprehensive documentation in the `README.md` file.
 - Deploy the application to Vercel/Netlify/etc.
 - Provide the live URL in the `README.md` file.
-
-## 8. Implement Cypress or Playwright for Testing ❌
-- Implement Cypress or Playwright to validate key workflows like login and CRUD operations.
-
-## 9. Set Up CI/CD Pipeline ⚠️(50%)
-- Set up a CI/CD pipeline for (automated testing ❌) and code linting with Prettier or ESLint.✅
-
-## 10. Ensure Responsiveness and Dark Theme Toggle ⚠️(50%)
-- Ensure the app is responsive across devices.✅
-- Include a dark theme toggle using the Ant Design theme. ❌
 
 ## Requirements:
 - Node.js v16.20.2 or higher
