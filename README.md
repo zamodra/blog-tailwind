@@ -1,5 +1,5 @@
 ## Description:
-This project is built using Next.js v13, TypeScript, and Tailwind CSS. This project involves consuming public data APIs from GoRest (or MSW as a fallback), with Axios handling API calls and TanStack Query v5 used for data fetching and caching. The user interface is styled using Ant Design (v5) and Tailwind CSS.
+This project is built using Next.js v13, TypeScript, and Tailwind CSS. This project involves consuming public data APIs from GoRest (or MSW as a fallback), with Axios handling API calls and TanStack Query v5 used for data fetching and caching. The user interface is styled using Tailwind CSS.
 
 ## Online Demo:
 - Visits here: https://zmdr-syn.netlify.app/
